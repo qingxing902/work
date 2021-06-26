@@ -1,0 +1,45 @@
+#container {
+	width:1263px;
+	margin:30px auto 0 auto;
+    overflow: hidden;
+}
+/* 照片样式 */
+.album{
+	width:910px;
+	float:left;
+}
+
+.album figure {
+	padding:4px;
+	text-align: center;
+	width:433px;
+	border:1px solid #ccc;
+	display: inline-block;
+	margin: 10px 3px 15px 0 ;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	margin-left: 5px;
+
+}
+.album figure img{
+	vertical-align:middle;
+}
+
+.album figcaption {
+	line-height: 1.5;
+	padding:10px  0 10px 0;
+	font-size: 16px;
+}
+/* 照片最后更多按钮 */
+.more2 {
+	width:898px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	margin:10px auto;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	color:#666;
+	float:left;
+}

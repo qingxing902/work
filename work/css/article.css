@@ -1,0 +1,173 @@
+
+#container {
+	width:1263px;
+	margin:30px auto 0 auto;
+    overflow: hidden;
+
+}
+.information{
+	width:910px;
+	float:left;
+}
+/* 导航栏 */
+.infos {
+	width:900px;
+	height:50px;
+	background: #eee;
+    margin-left: 20px;
+	float: left;
+}
+.infos_left{
+	float:left;
+	line-height: 48px;
+	text-align: center;
+
+}
+.infos_left li {
+	display: inline-block;
+	width:150px;
+	height:48px;
+}
+.infos_left li a {
+	display: block;
+	color: #666;
+	cursor: pointer;
+
+}
+.infos_left li:first-child {
+	position: relative;
+	background: #fff;
+	border-top:2px solid #458b00;
+	left:1px;
+
+}
+.infos_right{
+	width:300px;
+	height:50px;
+	line-height: 50px;
+	float:right;
+	text-align: center;
+	margin-right:-30px;
+}
+.infos_right li {
+	display: inline-block;
+	width:60px;
+	
+}
+.infos_right li a.selected,
+.infos_right li a:hover{
+	background: #458b00;
+	color:#fff;
+}
+.infos_right li a {
+	color:#666;
+	width:60px;
+	padding:5px;
+	font-size:14px;	
+}
+/* 文章栏 */
+.passage {
+	width:898px;
+	height:231px;
+	position: relative;
+	border:1px solid #ccc;
+	color:#666;
+    margin-left: 20px;
+    margin-top: 20px;
+	float: left;
+	background-color: white;
+}
+.passage img {
+	float:left;
+}
+.passage .description {
+	float:right;
+	width:498px;
+	height:200px;
+	padding:10px 0 0 20px;
+
+}
+/* 文章内简介 */
+.description h3 {
+	font-size: 20px;
+	width:300px;
+    margin-top: 10px;
+	font-weight: normal;
+
+}
+.description p {
+	font-size: 14px;
+	line-height: 2;
+	width:480px;
+	margin-top:40px;
+}
+.description ol li  {
+	font-size: 16px;	
+	width:300px;
+	margin-top:10px;
+	height:20px;
+	line-height: 20px;
+}
+/* 文章类型 */
+.description .type {
+	position:absolute;
+	left:0;
+	top:0;
+	width:50px;
+	height:20px;
+	background: #59b200;
+	line-height: 20px;
+	text-align: center;
+	font-size:14px;
+	color:#fff;
+
+}
+/* 文章HOT栏 */
+.description .disc{
+	position: absolute;
+	top:0;
+	right:0;
+	width:52px;
+	height:52px;
+	background: url(../images/disc.png) no-repeat;
+}
+/* HOT样式 */
+.description .disc span{
+	display: block;
+	width:52px;
+	height:52px;
+	transform: rotate(45deg);
+	padding: 5px 0 0 0px;
+	color: #ff7a4d;
+	font-size: 14px;
+	text-indent: 7px;
+}
+/* 文章时间栏 */
+.description .footer {
+	width:498px;
+	height:28px;
+	line-height: 28px;
+	text-indent: 20px;
+	position:absolute;
+	bottom:2px;
+	letter-spacing: 1px;
+}
+.description .footer time {	
+	color:#458b00;
+    float: right;
+    margin-right: 20px;
+}
+
+/* 文章最后更多按钮 */
+.more2 {
+	width:898px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 10px auto;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	color:#666;
+	float:left;
+}

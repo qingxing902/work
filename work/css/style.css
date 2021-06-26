@@ -1,0 +1,257 @@
+.inner {
+    width: 1200px;
+    margin: auto;
+}
+/* 地址栏样式开始 */
+#city {
+	margin-top: 10px;
+    background: url(../images/img.png) no-repeat 20px 13px ;
+	background-color: white;
+	height: 40px;
+    width:190px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 0px;
+    float:left;
+
+}
+#city dt{
+    float:left;
+	width:140px;
+    margin-left: 35px;
+	color:rgb(6, 142, 221);
+    line-height: 15px;
+
+}
+#city a{
+    color: rgb(6, 142, 221);
+    font-size: 12px;
+
+}
+/* 地址栏样式结束 */
+/* 搜索栏样式开始 */
+.search {
+	width:100%;
+	min-width:1263px;
+	height:50px;
+	position: relative;
+} 
+/* 搜索栏输入框样式 */
+.input {
+	width:410px;
+	height:32px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-15px 0px 0px -296px;
+	border-radius:10px;
+	background: #eee;
+	outline: none;
+	padding:4px;
+	font-size: 16px;
+	font-weight: bolder;
+	color:#666;
+}
+/* 搜索栏按钮样式 */
+.button {
+	width: 80px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px 0px 0px 140px;
+    border-radius: 10px;
+    background: #eee;
+    line-height: 40px;
+    text-align: center;
+    color:#666;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* 搜索栏样式结束 */
+.banner {
+    height: 421px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+  
+}
+
+.banner .inner {
+    height: 421px;
+    /* background: url(图片路径) 不平铺 离左边的距离 离上面的距离 */
+    background: url(../images/search.jpg)  no-repeat center top;
+    width: 1200px;
+    margin:auto;
+}
+.banner article{
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 250px;
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.subnav {
+    float: left;
+    width: 190px;
+    height: 421px;
+    background: rgb(0,0,0,0.3)
+}
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+.subnav ul li a {
+    font-size:14px;
+    color: #ffffff;
+}
+.subnav ul li a span {
+    float: right;
+}
+
+.subnav ul li a:hover {
+    color:#00a4ff ;
+}
+/* 侧边栏结束 */
+/* 联系方式栏开始 */
+.contact {
+
+    width: 230px;
+    height: 300px;
+    background-color:#ffffff;
+    margin-left: 1000px;
+    position:fixed;
+    margin-top: 50px;
+}
+/* 联系方式盒子标题 */
+.contact h2 {
+    height: 48px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #ffffff;
+}
+/* 联系方式的小盒子，里面包括ul和三个li */
+.bd {
+    padding: 0 20px;
+}
+/* li样式 */
+.bd ul li {
+    padding: 14px 0 10px 0;
+    border-bottom: 1px solid #cccccc;
+}
+/* li中h4样式 */
+.bd ul li h4 {
+    font-size: 16px;
+    color: #4e4e4e;
+    padding-bottom: 5px;
+    margin: 0%;
+}
+/* li正文样式 */
+.bd ul li p {
+    font-size:12px ;
+    color:#a5a5a5;
+    padding-bottom: 0;
+}
+/* more按钮的样式 */
+.bd .more {
+    /* 把a行内元素转化为块级元素，方便给宽和高 */
+    display: block;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 38px;
+    color: #00a4ff;
+    font-size:16px;
+    font-weight: 700;
+} 
+
+/* banner下面的盒子，包括左侧的box1和右侧的box3 */
+#container2{
+    margin:10px 30px;
+    height: 421px;
+}
+/* 左侧的box1，包括左侧的图片，标题，和右侧的box2盒子*/
+.box1{
+    width:50%;
+    height:421px;
+    padding:0px;
+    float: left;
+}
+/* box1的头部*/
+.head1{
+    width:250px;
+    height:300px;
+    float: left;
+}
+.head1 h1{
+    margin: 8px;
+}
+/* 头部两行字体的颜色 */
+.headh1{
+    color:orange;
+    margin-bottom: 10px;
+}
+.headh2{
+    color:#004299;
+}
+
+/* box1中图片的尺寸 */
+.box1 img{
+    width:220px;
+    height:300px;
+}
+/* box1右侧正文部分盒子*/
+.box2{
+    margin-top: 70px;
+    width:350px;
+    float:right;
+    height:300px;
+    line-height: 26px;
+    text-indent:2em;
+    color:#333;
+    font-size: 14px;
+}
+/* 右侧box3 */
+.box3{
+    width: 50%;
+    height: 421px;
+    float: right;
+}
+/* box3头部 */
+.head2{
+    width:290px;
+    margin-left: 20px;
+    float:left;
+}
+.head2 p{
+    line-height: 26px;
+    text-indent:2em;
+    color:#333;
+    font-size: 14px;
+}
+/* 头部的照片 */
+.head2 img{
+    width:270px;
+    height: 250px;
+    margin-top: 10px;
+    float: left;
+}
+/* box3右侧盒子 */
+.box4{
+    width:230px;
+    height: 421px;
+    float: right;
+
+}
+.box4 img{
+    margin-top: 40px;
+    width:230px ;
+    height: 350px;
+}

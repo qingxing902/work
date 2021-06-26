@@ -1,0 +1,64 @@
+/* 侧边留言展示栏 */
+.sidebar {
+	float:right;
+	width:300px;
+	color:#666;
+	margin-right: 20px;
+}
+.sidebox {
+	height:300px;
+	text-align: center;
+	margin-bottom:20px;
+    border:1px solid #ccc;
+}
+.sidebox h3{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	height:48px;
+	line-height:48px;
+	background: #fafafa;
+	text-align:left;
+	text-indent: 20px;
+	margin-bottom: 5px;
+}
+
+.sidebox li{
+	display: inline-block;
+	height:45px;
+	width:290px;
+	margin:2px;
+	line-height:45px;
+	color:#fff; 
+	background: #eee;
+
+}
+/* 留言栏 */
+.treasure {
+	height:200px;
+}
+/* 留言展示栏超链接样式 */
+.tag li a {
+	color:#999;
+}
+.tag li a:hover {
+	background: lightblue;
+	display:block;
+	color:#fff;
+}
+/* 留言栏更多按钮 */
+.more {
+    /* 把a行内元素转化为块级元素，方便给宽和高 */
+	width: 290px;
+	margin:4px;
+    display: block;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 38px;
+    color: #00a4ff;
+    font-size:16px;
+    font-weight: 700;
+	float: left;
+} 
